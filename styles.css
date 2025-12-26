@@ -1,0 +1,138 @@
+h2{
+
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left:25px;
+  font-size: xx-large;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+#top_buttons{
+    position: fixed;
+    top:5;
+    right:0;
+    margin-right: 10px;
+
+}
+
+#top_buttons button{
+    border:none;
+    border-radius:10%;
+    background-color: white;
+    padding:20px;
+    
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size:x-large;
+    font-style:normal;
+
+}
+
+#top_buttons button:hover{
+    color:grey;
+}
+
+#top_buttons button:active{
+    color:grey;
+}
+
+#about_me{
+    border:2px solid black;
+    padding:5px;
+    text-align:center;
+    border-radius:20px;
+    width: 700px;
+    height:300px;
+    margin:50px;
+
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#academic_details{
+    border:2px solid black;
+    padding:0px;
+    text-align:center;
+    border-radius:20px;
+    width: 700px;
+    height:450px;
+    margin:50px 800px;
+
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.academic_details_level{
+    border:2px solid black;
+    padding:5px;
+    text-align:center;
+    border-radius:20px;
+    width: 650px;
+    height:100px;
+    margin:20px;
+
+    position:relative;
+    right: 30px;
+    left: 1px;
+}
+
+#skills{
+    border:2px solid black;
+    padding:0px;
+    text-align:center;
+    border-radius:20px;
+    width: 700px;
+    height:520px;
+    margin:50px;
+
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.skills_level1{
+    border:2px solid black;
+    padding:0px;
+    text-align:center;
+    border-radius:20px;
+    width: 650px;
+    height:200px;
+    margin:20px;
+
+    position:relative;
+    right: 30px;
+    left:1px;
+}
+
+.skills_level2{
+    border:2px solid black;
+    padding:0px;
+    text-align:center;
+    border-radius:20px;
+    width: 650px;
+    height:250px;
+    margin:20px;
+
+    position:relative;
+    right: 30px;
+    left:1px;
+}
+
+#contact{
+    text-align: center;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
