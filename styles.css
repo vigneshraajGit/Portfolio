@@ -1,49 +1,76 @@
-h2{
 
-  font-family: "Anta", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-left:25px;
-  font-size: xx-large;
+.intro {
+    margin: 5vh 10vh;
+    font-family: "Anta", sans-serif;
+    font-size:1.2rem;
+}
+
+.intro-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content p {
+    text-align: left;
+}
+
+.top_buttons {
+    display: flex;
+}
+
+.top_buttons button {
+    border: none;
+    background: #cfd4f5;
+    padding: 12px 18px;
+    font-family: "Caveat", cursive;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.top_buttons button:hover {
+    color: grey;
+}
+
+.profile-img {
+    margin-top: 5px;
+}
+
+.profile-img img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+#roles{
+    overflow: hidden;          /* hides text before typing */
+    white-space: nowrap;       /* keeps text in one line */
+    border-right: 2px solid black;
+    width: 0;
+    animation: typing 7s steps(51) infinite,
+                blink 0.7s step-end infinite;
+    animation-timing-function:ease;
+    font-family: "Anta", sans-serif;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
 }
 
 html{
     scroll-behavior: smooth;
+    background-color:#cfd4f5;
 }
 
 ul{
     list-style:none;
     padding:0;
     margin:0;
-}
-
-#top_buttons{
-    position: fixed;
-    top:5;
-    right:0;
-    margin-right: 10px;
-
-}
-
-#top_buttons button{
-    border:none;
-    border-radius:10%;
-    background-color: white;
-    padding:20px;
-    
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-size:x-large;
-    font-style:normal;
-
-}
-
-#top_buttons button:hover{
-    color:grey;
-}
-
-#top_buttons button:active{
-    color:grey;
 }
 
 #about_me{

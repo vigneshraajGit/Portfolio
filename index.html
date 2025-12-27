@@ -1,102 +1,138 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            My Portfolio
-        </title>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Delius&family=Fredericka+the+Great&family=Rye&display=swap" rel="stylesheet">
-    <body>
-        <div id="top_buttons">
-            <a href="#about_me"> <button type="button"> About me </button> </a>
-            <a href="#skills"> <button type="button">Skills</button></a>
-            <a href="#academic_details"> <button type="button">Academic Details</button></a>
-            <a href="#contact"> <button type="button">Contact</button></a>
-        </div>
+<head>
+    <title>
+        My Portfolio
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 
-        <h2>Vignesh Raaj S</h2>
-        <p>Web Developer | Problem Solver | Continuous learner</p>
-        <img src="svr.png" alt="Profile photo" height="150px" width="150">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Delius&family=Fredericka+the+Great&family=Rye&display=swap"
+        rel="stylesheet">
 
-        <div id="about_me">
-            <h3>About Me</h3>
-                <p>Hello, I am Vignesh Raaj S.
-                I am currently pursuing my second year of undergraduate studies at SSN College of Engineering. With a strong interest in Full Stack Development and problem solving, I am continuously working on strengthening my technical foundation and analytical thinking skills. I enjoy understanding how systems work end-to-end and strive to write clean, efficient, and maintainable code.<br><br>
-                I am particularly motivated by learning new technologies, adapting to evolving industry practices, and applying logical thinking to solve real-world challenges. Alongside technical growth, I value consistency, curiosity, and a willingness to learn from feedback, which helps me improve both personally and professionally.</p>
-        </div>
+<body>
+    <div class="intro">
 
-        <div id="academic_details">
-            <h3>Academic details</h3>
-            <div class="academic_details_level">
-                Undergraduate
-                <ul>
-                    <li>College:SSN College of Engineering</li>
-                    <li>CGPA:8.7 CGPA</li>
-                    <li>Specialisation:Computer Science and Engineering</li>
-                </ul>   
+        <div class="intro-top">
+            <div class="text-content">
+                <h2>Vignesh Raaj S</h2>
+                <p id="roles">Web Developer | Problem Solver | Continuous learner</p>
             </div>
 
-            <div class="academic_details_level">
-                Higher Secondary
-                <ul>
-                    <li>School:Sairam Matriculation Hr.Sec.School,Thiruvarur</li>
-                    <li>Percentage:97.16%</li>
-                </ul>
-            </div>
-
-            <div class="academic_details_level">
-                Secondary
-                <ul>
-                    <li>School:Sairam Matriculation Hr. Sec. School,Thiruvarur</li>
-                    <li>Percentage:98.2%</li>
-                </ul>
+            <div class="top_buttons">
+                <a href="#about_me"><button>About me</button></a>
+                <a href="#skills"><button>Skills</button></a>
+                <a href="#academic_details"><button>Academic Details</button></a>
+                <a href="#contact"><button>Contact</button></a>
             </div>
         </div>
 
-        <div id="skills">
-            <div class="skills_level1">
-                <h3>Technical Skills</h3>
-                <ul>
-                    <li>I am efficient in Python, C++, C, and Java, with a strong focus on algorithmic problem solving. 
-                        I have solved more than 100 problems on LeetCode and actively participated in Codeforces contests, attaining a rating of around 800, which reflects my growing consistency and analytical skills.</li>
-                </ul>
-                <br>
-                <a href="https://leetcode.com/u/uXMIby0IK8"><img src="leetcode.png" alt="Leetcode" style="margin-right:15px" height="27px"></a>
-                <a href="https://codeforces.com/profile/i_am_victor"><img src="codeforces.png" height="27px"></a>
-            </div>
+        <div class="profile-img">
+            <img src="svr.png" alt="Profile photo">
+        </div>
 
-            <div class="skills_level2">
+    </div>
+
+
+    <div id="about_me">
+        <h3>About Me</h3>
+        <p>Hello, I am Vignesh Raaj S.
+            I am currently pursuing my second year of undergraduate studies at SSN College of Engineering. With a strong
+            interest in Full Stack Development and problem solving, I am continuously working on strengthening my
+            technical foundation and analytical thinking skills. I enjoy understanding how systems work end-to-end and
+            strive to write clean, efficient, and maintainable code.<br><br>
+            I am particularly motivated by learning new technologies, adapting to evolving industry practices, and
+            applying logical thinking to solve real-world challenges. Alongside technical growth, I value consistency,
+            curiosity, and a willingness to learn from feedback, which helps me improve both personally and
+            professionally.</p>
+    </div>
+
+    <div id="academic_details">
+        <h3>Academic details</h3>
+        <div class="academic_details_level">
+            Undergraduate
+            <ul>
+                <li>College:SSN College of Engineering</li>
+                <li>CGPA:8.7 CGPA</li>
+                <li>Specialisation:Computer Science and Engineering</li>
+            </ul>
+        </div>
+
+        <div class="academic_details_level">
+            Higher Secondary
+            <ul>
+                <li>School:Sairam Matriculation Hr.Sec.School,Thiruvarur</li>
+                <li>Percentage:97.16%</li>
+            </ul>
+        </div>
+
+        <div class="academic_details_level">
+            Secondary
+            <ul>
+                <li>School:Sairam Matriculation Hr. Sec. School,Thiruvarur</li>
+                <li>Percentage:98.2%</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="skills_level1">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>I am efficient in Python, C++, C, and Java, with a strong focus on algorithmic problem solving.
+                    I have solved more than 100 problems on LeetCode and actively participated in Codeforces contests,
+                    attaining a rating of around 800, which reflects my growing consistency and analytical skills.</li>
+            </ul>
+            <br>
+            <a href="https://leetcode.com/u/uXMIby0IK8"><img src="leetcode.png" alt="Leetcode" style="margin-right:15px"
+                    height="27px"></a>
+            <a href="https://codeforces.com/profile/i_am_victor"><img src="codeforces.png" height="27px"></a>
+        </div>
+
+        <div class="skills_level2">
             <h3>Soft skills</h3>
-                    <p>
-                        Communication & Mentorship:I enjoy making sure everyone is on the same page. Whether it's explaining a technical hurdle to a teammate or brainstorming in a group, I lead with active listening and clear, honest feedback.<br>
-                        Adaptability & Focus: Development is fast-paced, and I'm built for it. I stay calm under pressure and pivot quickly when requirements change, ensuring we hit our goals without losing momentum.<br>
-                        Logical Problem Solving:I approach big challenges with patience. By breaking complex tasks into smaller, practical steps and managing my time effectively, I keep projects moving forward while still finding time to learn new things.
-                    </p>
-            </div>
+            <p>
+                Communication & Mentorship:I enjoy making sure everyone is on the same page. Whether it's explaining a
+                technical hurdle to a teammate or brainstorming in a group, I lead with active listening and clear,
+                honest feedback.<br>
+                Adaptability & Focus: Development is fast-paced, and I'm built for it. I stay calm under pressure and
+                pivot quickly when requirements change, ensuring we hit our goals without losing momentum.<br>
+                Logical Problem Solving:I approach big challenges with patience. By breaking complex tasks into smaller,
+                practical steps and managing my time effectively, I keep projects moving forward while still finding
+                time to learn new things.
+            </p>
         </div>
+    </div>
 
-       
-        <footer id="contact">
-            <p><b>Connect with me on</b></p>
-            <a href="https://www.linkedin.com/in/vignesh-raaj-s-2264aa324"><img src="linkedin.png" height="45px" alt="Linkedin" style="margin-right:15px"></a>
-            <a href="https://github.com/vigneshraajGit"><img src="github.png" height="45px" alt="Github" style="margin-right:15px"></a>
-            <a href="https://www.instagram.com/vigneshraaj027?igsh=dGpwZGx1NGw2eXBo"><img src="instagram.png" height="45px" alt="instagram"></a>
 
-            <p><b>Want to Contact?</b></p>
-            <form>
-                <label for="fname">Your Name :</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="email">Your Email :</label>
-                <input type="text" id="email" name="email"><br><br>
-                <label for="message">Your Message:</label>
-                <textarea name="message" rows="1" cols="20"></textarea><br><br>
-                <button type="button" onclick="alert('Backend not yet ready')">Send an email</button>
-            </form><hr>
-            <p><pre>Copyright © 2025 - All rights reserved.</pre></p>
-        </footer>
-    </body>
+    <footer id="contact">
+        <p><b>Connect with me on</b></p>
+        <a href="https://www.linkedin.com/in/vignesh-raaj-s-2264aa324"><img src="linkedin.png" height="45px"
+                alt="Linkedin" style="margin-right:15px"></a>
+        <a href="https://github.com/vigneshraajGit"><img src="github.png" height="45px" alt="Github"
+                style="margin-right:15px"></a>
+        <a href="https://www.instagram.com/vigneshraaj027?igsh=dGpwZGx1NGw2eXBo"><img src="instagram.png" height="45px"
+                alt="instagram"></a>
+
+        <p><b>Want to Contact?</b></p>
+        <form>
+            <label for="fname">Your Name :</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="email">Your Email :</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="message">Your Message:</label>
+            <textarea name="message" rows="1" cols="20"></textarea><br><br>
+            <button type="button" onclick="alert('Backend not yet ready')">Send an email</button>
+        </form>
+        <hr>
+        <p>
+        <pre>Copyright © 2025 - All rights reserved.</pre>
+        </p>
+    </footer>
+</body>
+
 </html>
