@@ -109,6 +109,7 @@ h3 {
     font-style: normal;
 }
 
+
 .abt_img {
     width: 35%;
     display: flex;
@@ -223,6 +224,10 @@ h3 {
 #projects a:visited{
     color:grey;
 } 
+
+.abt_text:hover,.academic_details_txt:hover,.skills_txt:hover,.project_text:hover{
+    transform:scale(1.01);
+}
 
 form input,
 textarea {
