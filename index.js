@@ -21,6 +21,8 @@ button.onclick=function display()
     if(gmailVerify(email))
         window.alert("Please enter valid email");
     else
+    {
         console.log(sender_name+`\n`+email+`\n`+message);
-    window.alert("See the console!(Press F12)");
+        window.alert("See the console!(Press F12)");
+    }
 }
